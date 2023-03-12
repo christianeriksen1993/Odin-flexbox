@@ -7,3 +7,22 @@ body {
     font-family: Roboto, sans-serif;
     justify-content: space-between;
   }
+
+  .hero {
+    background-color: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+  }
+
+
