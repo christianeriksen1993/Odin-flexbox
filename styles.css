@@ -12,12 +12,14 @@ body {
     background-color: #1F2937;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 50px;
   }
 
   .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px;
+    padding-top: 5px;
   }
 
   .header-logo {
@@ -25,7 +27,7 @@ body {
     color: #F9FAF8;
   }
 
-a {
+a, .hero-secondary {
   color: #E5E7EB;
   font-size: 18px;
   text-decoration: none;
@@ -40,19 +42,37 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 40px;
+  padding: 0px 50px;
+  flex-wrap: wrap;
+  flex: auto;
 }
 
 .text-and-signup {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
+  min-width: 300px;
 }
 
 .hero-image {
-  height: 200px;
-  width: auto;
+  height: auto;
+  width: 450px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  min-width: 300px;
 }
 
-.image-div {
-  width: 50%;
+.hero-main {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  width: 120px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
 }
