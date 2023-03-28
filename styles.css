@@ -5,7 +5,6 @@ body {
     margin: 0;
     overflow: hidden;
     font-family: Roboto, sans-serif;
-    justify-content: space-between;
   }
 
   .hero {
@@ -56,7 +55,7 @@ a, .hero-secondary {
 
 .hero-image {
   height: auto;
-  width: 450px;
+  width: 350px;
   flex-grow: 0;
   flex-shrink: 1;
   min-width: 300px;
@@ -64,7 +63,7 @@ a, .hero-secondary {
 
 .hero-main {
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: 800;
   color: #F9FAF8;
 }
 
@@ -75,4 +74,42 @@ a, .hero-secondary {
   border-radius: 5px;
   padding: 5px;
   font-size: 16px;
+}
+
+.info-header {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.info-main {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.info-1, .info-2, .info-3, .info-4 {
+  max-width: 150px;
+  flex-shrink: 0;
+}
+
+.info-img {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 16px;
+  width: 150px;
+  height: 150px;
+  border-color: #3882F6;
+}
+
+.info-img-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.information {
+  margin-top: 50px;
 }
