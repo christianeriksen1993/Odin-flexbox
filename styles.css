@@ -24,6 +24,7 @@ body {
   .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 800;
   }
 
 a, .hero-secondary {
@@ -53,6 +54,7 @@ a, .hero-secondary {
   min-width: 300px;
 }
 
+
 .hero-image {
   height: auto;
   width: 350px;
@@ -74,6 +76,7 @@ a, .hero-secondary {
   border-radius: 5px;
   padding: 5px;
   font-size: 16px;
+  margin-top: 16px;
 }
 
 .info-header {
@@ -112,4 +115,26 @@ a, .hero-secondary {
 
 .information {
   margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 150px;
+  gap: 24px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: "light italic";
+  color: #1F2937;
+  align-self: center;
+}
+
+.quote-sign {
+  font-size: 24px;
+  font-weight: 800;
+  align-self: flex-end;
 }
